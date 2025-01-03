@@ -1,14 +1,10 @@
+import { HomePage } from '@/components/HomePage'
+
 export default function Home() {
   return (
-    <div
-      style={{
-        maxWidth: 1280,
-        margin: '0 auto',
-        padding: '2rem',
-        textAlign: 'center',
-      }}
-    >
-      Start prompting.
+    <div className="bg-gradient-to-b from-[#000066] to-black min-h-screen">
+      <HomePage />
     </div>
-  );
+  )
 }
+
